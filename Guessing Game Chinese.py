@@ -1,6 +1,6 @@
-import random
+import secrets
 
-number = random.randint(1,101)
+number = secrets.SystemRandom().randint(1,101)
 
 guessthenumber = 0
 
